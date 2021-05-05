@@ -8,6 +8,8 @@
 
     <title>Website title - bootstrap html template</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="{{ asset('/images/favicon.ico') }}" rel="shortcut icon" type="image/x-icon">
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('/fonts/fontawesome/css/all.min.css') }}" type="text/css" rel="stylesheet">
@@ -114,9 +116,10 @@
 <!-- ========================= FOOTER END // ========================= -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="{{ asset('/js/bootstrap.bundle.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('/js/script.js') }}" type="text/javascript"></script>
-{{--<script src="{{ asset('/js/custom.js') }}" type="text/javascript"></script>--}}
+<script src="{{ asset('/js/custom.js') }}" type="text/javascript"></script>
 @stack('scripts')
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Database\Factories;
+namespace Database\Factories\Catalog;
 
 use App\Models\Catalog\Category;
 use App\Models\Catalog\Product;
