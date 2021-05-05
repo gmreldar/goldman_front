@@ -1,5 +1,17 @@
 @extends('layout.app')
 
+@section('title')
+    Ювелирные изделия купить в Москве недорого
+@endsection
+
+@section('keywords')
+    <meta name="Keywords" content="">
+@endsection
+
+@section('description')
+    <meta name="description" content="Цена снижается каждый день. Goldman.">
+@endsection
+
 @section('content')
 
     <section class="section-main bg padding-y">
