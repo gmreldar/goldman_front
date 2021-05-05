@@ -1,0 +1,77 @@
+.header__phone-icon i {
+    transform: rotate(90deg) !important;
+    font-size: 1.2rem;
+}
+
+.header__phone-number a {
+    color: #000000;
+}
+.header__phone-number {
+    font-weight: 700;
+}
+
+.header__work-time {
+    font-size: 0.8rem;
+}
+
+.header__location {
+    font-weight: 700;
+}
+
+.header__location-icon i {
+    font-size: 1.2rem;
+}
+
+.header__location-filial {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.header__lk .bg-light, .notify{
+    background-color: transparent !important;
+    color: #000;
+}
+
+.cart__image {
+    align-self: self-end;
+}
+
+.header__lk {
+    margin-top: -15px;
+}
+
+.header__lk a {
+    color: #000000;
+}
+
+.sub__header ul {
+    display: flex;
+}
+
+.footer__items {
+    font-size: .8rem;
+}
+
+.footer__items a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.second-hand__items nav[role=navigation], .second-hand-last-day__items nav[role=navigation] {
+    display: none;
+}
+
+.footer__social-links i {
+    font-size: 1.3rem !important;
+}
