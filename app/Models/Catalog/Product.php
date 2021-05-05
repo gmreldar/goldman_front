@@ -39,7 +39,7 @@ class Product extends Model
      */
     public function scopeLastSecondHand($query)
     {
-        return $query->whereRaw("created_at BETWEEN date_add(curdate(), interval -6 day) AND curdate()");
+        return $query->whereRaw("created_at BETWEEN date_add(curdate(), interval -6 day) AND NOW()");
     }
 
     /**

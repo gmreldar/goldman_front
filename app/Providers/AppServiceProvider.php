@@ -31,7 +31,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $categories = Category::get();
-        View::share('categories', $categories);
+        try {
+            $categories = Category::get();
+            View::share('categories', $categories);
+        } catch (\Exception $exception) {
+            //
+        }
     }
 }
